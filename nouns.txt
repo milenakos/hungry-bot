@@ -4579,6 +4579,7 @@ plume
 plunger
 plywood
 pneumonia
+pneumonoultramicroscopicsilicovolcanoconiosis
 pocket
 pocket-watch
 pocketbook
