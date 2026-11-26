@@ -1,4 +1,4 @@
-import discord
+import discord, os
 
 bot = discord.Client(intents=discord.Intents(message_content=True, messages=True, guilds=True))
 
@@ -31,4 +31,4 @@ async def on_message(message):
     noun_memory.append(nouns_found)
     noun_memory = noun_memory[-10:]
 
-bot.run("token")
+bot.run(os.environ["HUNGRY_TOKEN"])
